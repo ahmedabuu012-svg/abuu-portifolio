@@ -1,16 +1,16 @@
-/* Kilimanjaro-inspired palette: forest, mist, warm highlight */
+/* Light blue bright palette */
 :root {
-  --bg: #0c1210;
-  --bg-elevated: #141c19;
-  --surface: #1a2420;
-  --border: rgba(232, 245, 238, 0.12);
-  --text: #e8f5ee;
-  --text-muted: #9cb0a6;
-  --accent: #3dd6a0;
-  --accent-soft: rgba(61, 214, 160, 0.15);
-  --gold: #d4a853;
-  --gold-soft: rgba(212, 168, 83, 0.2);
-  --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  --bg: #f4f9fc;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --border: rgba(0, 32, 64, 0.08);
+  --text: #0a1929;
+  --text-muted: #4a5f73;
+  --accent: #0066cc;
+  --accent-soft: rgba(0, 102, 204, 0.1);
+  --gold: #f57c00;
+  --gold-soft: rgba(245, 124, 0, 0.1);
+  --shadow: 0 12px 40px rgba(0, 20, 40, 0.08);
   --radius: 14px;
   --radius-sm: 10px;
   --font-sans: "DM Sans", system-ui, sans-serif;
@@ -97,7 +97,7 @@ a:hover {
   top: 0;
   z-index: 50;
   height: var(--header-h);
-  background: rgba(12, 18, 16, 0.85);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
 }
@@ -233,7 +233,7 @@ a:hover {
   background:
     radial-gradient(ellipse 80% 55% at 15% 20%, var(--accent-soft), transparent 55%),
     radial-gradient(ellipse 60% 45% at 85% 10%, var(--gold-soft), transparent 50%),
-    linear-gradient(165deg, var(--bg-elevated) 0%, var(--bg) 45%, #0a0f0d 100%);
+    linear-gradient(165deg, var(--bg-elevated) 0%, var(--bg) 45%, #e6f0f9 100%);
   pointer-events: none;
 }
 
@@ -307,14 +307,14 @@ a:hover {
 
 .btn-primary {
   background: var(--accent);
-  color: #042218;
+  color: #ffffff;
   border-color: var(--accent);
 }
 
 .btn-primary:hover {
-  background: #5ae8b8;
-  border-color: #5ae8b8;
-  color: #042218;
+  background: #005bb5;
+  border-color: #005bb5;
+  color: #ffffff;
 }
 
 .btn-ghost {
@@ -627,7 +627,7 @@ a:hover {
 .site-footer {
   padding: 2rem 0;
   border-top: 1px solid var(--border);
-  background: #080c0b;
+  background: #ffffff;
 }
 
 .footer-inner {

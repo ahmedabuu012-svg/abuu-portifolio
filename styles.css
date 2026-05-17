@@ -1,16 +1,16 @@
-/* Light Blue palette */
+/* Soft Cool Grey palette */
 :root {
-  --bg: #f0f7ff;
-  --bg-elevated: #ffffff;
-  --surface: #ffffff;
-  --border: rgba(0, 32, 64, 0.08);
-  --text: #0a1929;
-  --text-muted: #4a5f73;
+  --bg: #e2e8f0; /* Softer, matte grey background */
+  --bg-elevated: #f1f5f9; /* Slightly lighter for contrast */
+  --surface: #ffffff; /* White for cards to pop gently */
+  --border: rgba(15, 23, 42, 0.1);
+  --text: #1e293b;
+  --text-muted: #64748b;
   --accent: #0066cc;
   --accent-soft: rgba(0, 102, 204, 0.1);
-  --gold: #f57c00;
-  --gold-soft: rgba(245, 124, 0, 0.1);
-  --shadow: 0 12px 40px rgba(0, 20, 40, 0.08);
+  --gold: #d97706;
+  --gold-soft: rgba(217, 119, 6, 0.1);
+  --shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
   --radius: 14px;
   --radius-sm: 10px;
   --font-sans: "DM Sans", system-ui, sans-serif;
@@ -233,7 +233,7 @@ a:hover {
   background:
     radial-gradient(ellipse 80% 55% at 15% 20%, var(--accent-soft), transparent 55%),
     radial-gradient(ellipse 60% 45% at 85% 10%, var(--gold-soft), transparent 50%),
-    linear-gradient(165deg, var(--bg-elevated) 0%, var(--bg) 45%, #e6f0f9 100%);
+    linear-gradient(165deg, var(--bg-elevated) 0%, var(--bg) 45%, #cbd5e1 100%);
   pointer-events: none;
 }
 
